@@ -16,11 +16,16 @@ import sun07 from './img/sun07.webp';
 import sun08 from './img/sun08.webp';
 import sun09 from './img/sun09.jfif';
 import sun10 from './img/sun10.jfif';
+import sun11 from './img/sun11.jfif';
 import so01 from './img/so01.webp';
 import so02 from './img/so02.webp';
 import so03 from './img/so03.webp';
 import so04 from './img/so04.jfif';
 import so05 from './img/so05.jfif';
+import so06 from './img/so06.webp';
+import so07 from './img/so07.webp';
+import so08 from './img/so08.webp';
+import so09 from './img/so09.webp';
 import ho01 from './img/ho01.jfif';
 import ho02 from './img/ho02.webp';
 import ho03 from './img/ho03.jfif';
@@ -42,7 +47,7 @@ const dummy = [
     director : '사토나카 미카',
     genre : '순정만화',
     publisher : '대원씨아이',
-    story : '"나도 남자친구를 사귀고 싶어!"연애 경험 제로에 남자와의 커뮤니케이션 능력 전무인 무기. 고등학교에 들어가서 만난 건 엄청난 미남인데도 여자들에게 무뚝뚝하기 그지없는 쿠로세 케이. 너무나 실례되는 태도에 화가 치미는 무기는 우연히 쿠로세가 비밀스럽게 아르바이트하는 곳을 알게 되는데?! 황홀함에 몸부림치는 러브 코미디, 개막!',
+    story : '"나도 남자친구를 사귀고 싶어!" 연애 경험 제로에 남자와의 커뮤니케이션 능력 전무인 무기. 고등학교에 들어가서 만난 건 엄청난 미남인데도 여자들에게 무뚝뚝하기 그지없는 쿠로세 케이. 너무나 실례되는 태도에 화가 치미는 무기는 우연히 쿠로세가 비밀스럽게 아르바이트하는 곳을 알게 되는데?! 황홀함에 몸부림치는 러브 코미디, 개막!',
     photo : sun02
   },
   {
@@ -198,6 +203,51 @@ const dummy = [
     story : '에너지 절약을 자신의 신조로 삼고 있는 호타로는 누나의 명령으로 졸지에 ‘고전부’ 에 가입하게 된다. 동아리방을 찾아간 호타로는 그 곳에서 호기심 왕성한 소녀 ‘치탄다 에루’와 만나고 ‘동아리방 밀실사건’에 맞닥뜨리는데?!',
     photo : ho04
   },
+  {
+    id : 19,
+    title : '스킵과 로퍼',
+    director : '타카마츠 미사키',
+    genre : '순정만화',
+    publisher : 'YNK미디어',
+    story : '고등학교 1학년 봄, 지방에서 진학을 위해 도쿄로! 미래 설계는 완벽하지만 살짝 엉뚱한 구석이 있는 이와쿠라 미츠미는 자신도 모르는 사이에 주변을 따뜻하게 하는 타고난 행복 바이러스-!',
+    photo : sun11
+  },
+  {
+    id : 20,
+    title : '지옥락',
+    director : '카쿠 유지',
+    genre : '소년만화',
+    publisher : '서울미디어코믹스',
+    story : '뛰어난 실력을 바탕으로 그 능력을 인정받아 세간에 공허의 가비마루로 알려진 닌자 가비마루. 어릴 때부터 닌자로의 삶만을 겪어온 그가 수장의 딸과 혼인한 뒤 심경의 변화를 느껴 종국에는 그녀와 함께 평범한 삶을 살기를 희망하게 된다. 하지만 수장은 이를 허락하지 않았고 결국 동료의 배신으로 붙잡히고 만다. 그렇게 처형을 기다리던 그는 처형인 아사에몬 사기리로부터 어느 임무를 달성하면 면죄부를 얻을 수 있음을 전해 듣는데...',
+    photo : so06
+  },
+  {
+    id : 21,
+    title : '체인소맨',
+    director : '후지모토 타츠키',
+    genre : '소년만화',
+    publisher : '학산문화사',
+    story : '가슴에 있는 줄을 잡아당기면 ‘체인소의 악마’로 변신! 악마들로 가득찬 세상을 구하기 위해서가 아니라, ‘그녀’의 사랑을 얻기 위해 악마를 죽이는 다크 히어로 ‘체인소 맨’ 덴지! 과연 그는 악마를 잡아 목표한 바를 이룰 수 있을까?! 악마 포치타와 함께 빚쟁이 데빌 헌터로 고용되어 혹사당하는 극빈곤 소년 덴지. 악마가 깃든 몸으로 악마를 사냥하는 신시대 다크 히어로 액션, 개막!',
+    photo : so07
+  },
+  {
+    id : 22,
+    title : '스파이패밀리',
+    director : '엔도 타츠야',
+    genre : '소년만화',
+    publisher : '학산문화사',
+    story : '사람들은 누구나 아무에게도 보여줄 수 없는 자신을 가지고 있다. 친구에게도, 연인에게도, 심지어 가족에게도. 잘 포장한 웃음이나 허세로 본심을 감추고 본성을 감추며, 그렇게 해서 세계는 위장된 평온을 이어가고 있다.',
+    photo : so08
+  },
+  {
+    id : 23,
+    title : '약속의 네버랜드',
+    director : '시라이 카이우',
+    genre : '소년만화',
+    publisher : '학산문화사',
+    story : '어머니처럼 생각하는 그녀는 부모가 아니다. 함께 사는 그 아이들도 형제가 아니다. 여기 그레이스 필드 하우스는 작은 고아원. 지극히 평온한 이 하우스에서 겸손하면서도 행복한 나날을 보내는 세 명의 주인공 엠마, 노먼, 레이. 그러나 그들의 일상은 어느 날 갑작스러운 끝을 고했다... 아이들을 기다리는 기구한 운명은...!?',
+    photo : so09
+  },
 ];
 
 function App() {
@@ -209,7 +259,6 @@ function App() {
         <Header setCategory={setCategory} dummy={dummy} />
         <Routes>
           <Route path='/' element={<Mainpage dummy={dummy} category={category} />} />
-          <Route path='/search' element={<Searchpage dummy={dummy} category={category} />}/>
         </Routes>
       </BrowserRouter>
     </div>

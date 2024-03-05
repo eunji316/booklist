@@ -1,0 +1,63 @@
+@charset "utf-8";
+
+.Searchpage{
+    width: 90%;
+    margin: 50px auto;
+    border-top: 1px solid #ddd;
+}
+.Searchpage .mb_01{
+    padding-top: 10px;
+}
+.Searchpage .sc_in{
+    box-sizing: border-box;
+    padding-top: 20px;
+}
+.Searchpage img{
+    border-radius: 5px;
+    width: 100%;
+    height: auto;
+}
+.Searchpage .mr_in{
+    font-size: 17px;
+    font-weight: 500;
+}
+
+@media screen and (min-width: 768px){
+    .Searchpage .sc_in{
+        display: flex;
+    }
+    .Searchpage .mo_txt{
+        margin-left: 20px;
+    }
+    .Searchpage .mo_name{
+        font-size: 27px;
+        padding-top: 20px;
+    }
+    .Searchpage .mo_box1 p{
+        font-size: 15px;
+    }
+    .Searchpage .mb_story{
+        margin-top: 85px;
+        font-size: 16px;
+        line-height: 1.5em;
+    }
+}
+@media screen and (min-width: 1024px){
+    .Searchpage .mo_txt{
+        margin-top: 20px;
+    }
+    .Searchpage .mo_img{
+        width: 30%;
+        margin-left: 120px;
+    }
+    .Searchpage .mb_story{
+        margin-top: 100px;
+    }
+    .Searchpage .mo_txt{
+        margin-left: 50px;
+        width: 50%;
+    }
+    .Searchpage .mb_01{
+        padding-top: 20px;
+    }
+}

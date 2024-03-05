@@ -59,15 +59,21 @@
     text-align: center;
 }
 .mo_name{
-    font-weight: 600;
-    font-size: 17px;
-}
-.mo_box1{
-    display: flex;
-    justify-content: center;
+    font-weight: 700;
+    font-size: 20px;
 }
 .mb_01{
-    margin-right: 10px;
+    text-align: left;
+    font-size: 13px;
+}
+.mb_03{
+    margin-top: -17px;
+}
+.mo_box1 p{
+    font-size: 13px;
+}
+.point{
+    font-weight: 500;
 }
 @media screen and (min-width: 768px){
     .Mainpage{
@@ -79,6 +85,8 @@
         padding: 10px 5px;
         box-sizing: border-box;
     }
+}
+@media screen and (min-width: 1024px){
     .BookModal{
         display: flex;
         width: 800px;
@@ -87,7 +95,13 @@
         width: 40%;
     }
     .mo_txt{
-        width: 50%;
+        width: 60%;
+        margin-left: 20px;
+    }
+    .mb_story{
+        margin-top: 50px;
+    }
+    .BookModal button{
+        margin-top: 50px;
     }
 }
-@media screen and (min-width: 1024px){}
