@@ -1,38 +1,93 @@
-.App {
-  text-align: center;
-}
+@charset "utf-8";
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.App{
+    width: 90%;
+    margin: 50px auto;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.Mainpage{
+    margin-top: 15px;
+    display: flex;
+    flex-wrap: wrap;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.BookItem{
+    width: 50%;
+    padding: 10px 5px;
+    box-sizing: border-box;
 }
-
-.App-link {
-  color: #61dafb;
+.BookItem img{
+    border-radius: 5px;
+    width: 100%;
+    height: auto;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.bi02{
+    font-size: 15px;
+    font-weight: 500;
 }
+.BookItem button{
+    font-size: 13px;
+    padding: 5px 7px;
+    border-radius: 5px;
+    color: #fff;
+    background-color: #fdb8b8;
+}
+.BookItem button:hover{
+    background-color: #ff7f7f;
+}
+.BookItem .modal{
+    display: none;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+}
+.BookItem .modal.show{
+    display: block;
+}
+.BookModal{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 300px;
+    padding: 30px;
+    box-sizing: border-box;
+    background-color: #fff;
+}
+.mo_txt{
+    text-align: center;
+}
+.mo_name{
+    font-weight: 600;
+    font-size: 17px;
+}
+.mo_box1{
+    display: flex;
+    justify-content: center;
+}
+.mb_01{
+    margin-right: 10px;
+}
+@media screen and (min-width: 768px){
+    .Mainpage{
+        width: 100%;
+        flex-wrap: wrap;
+    }
+    .BookItem{
+        width: 20%;
+        padding: 10px 5px;
+        box-sizing: border-box;
+    }
+    .BookModal{
+        display: flex;
+        width: 800px;
+    }
+    .mo_img{
+        width: 40%;
+    }
+    .mo_txt{
+        width: 50%;
+    }
+}
+@media screen and (min-width: 1024px){}

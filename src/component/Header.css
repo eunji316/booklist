@@ -1,0 +1,56 @@
+@charset "utf-8";
+
+.Header{
+    box-sizing : border-box;
+    min-height : 15vh;
+    padding-top : 5px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+.Header h2{
+    font-size: 30px;
+    font-weight: 600;
+}
+input{
+    padding: 5px 25px 5px 20px;
+    margin-bottom: 15px;
+}
+.category button{
+    margin-right: 25px;
+}
+.Header .category .active{
+    color: #ff7f7f;
+    font-weight: 500;
+}
+.scc{
+    position: relative;
+}
+.de{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 7px;
+    right: 30%;
+    background-image: url(../img/icon_sc_x.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    text-indent: -9999px;
+}
+.sc{
+    width: 50px;
+    height: 33px;
+    margin-left: 5px;
+    background-color: #ddd;
+    font-weight: 500;
+}
+@media screen and (min-width: 768px){
+    .de {
+        right: 40%;
+    }
+}
+@media screen and (min-width: 1024px){
+    .de {
+        right: 45%;
+    }
+}
